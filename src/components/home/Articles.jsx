@@ -1,9 +1,9 @@
 import {collectionGroup, onSnapshot, query} from "firebase/firestore";
 import React, {useEffect, useState} from "react";
-import {auth, db} from "../firebaseConfig";
-import DeleteArticle from "./DeleteArticle";
-import LikeArticle from "./LikeArticle";
-import Comment from "./Comment";
+import {auth, db} from "../../firebaseConfig";
+import DeleteArticle from "../deleteArticle/DeleteArticle";
+import LikeArticle from "../like/LikeArticle";
+import Comment from "../comment/Comment";
 
 
 export default function Articles() {

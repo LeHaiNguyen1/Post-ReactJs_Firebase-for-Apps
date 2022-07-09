@@ -1,10 +1,10 @@
-import Articles from "./components/Articles";
-import AddArticle from "./components/AddArticle";
-import Navbar from "./components/Navbar";
+import Articles from "./components/home/Articles";
+import AddArticle from "./components/addArticle/AddArticle";
+import Navbar from "./components/navbar/Navbar";
 import {BrowserRouter as Router, Route, Routes} from "react-router-dom";
-import Register from "./components/auth/Register";
-import Login from "./components/auth/Login";
-import RegiterEdit from '../src/components/auth/RegiterEdit';
+import Register from "./components/register/Register";
+import Login from "./components/login/Login";
+import RegiterEdit from './components/resetPassword/RegiterEdit';
 
 function App() {
     return (

@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {addDoc, collection, Timestamp} from "firebase/firestore";
 import {getDownloadURL, ref, uploadBytesResumable} from "firebase/storage";
-import {auth, db, storage} from "./../firebaseConfig";
+import {auth, db, storage} from "../../firebaseConfig";
 import {toast} from "react-toastify";
 import {useAuthState} from "react-firebase-hooks/auth";
 import {Link} from "react-router-dom";
